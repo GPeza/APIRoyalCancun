@@ -3,6 +3,6 @@
 
     $api = new ApiRoyalCancun();
 
-    $api->getOcupiedDates(0,'2021-05-10');
+    $api->getOcupiedDates(0,'01-05-2021');
     
 ?>

@@ -8,7 +8,7 @@ class ApiRoyalCancun{
     function getOcupiedDates($idReservation, $date){
         $RoyalCancun = new RoyalCancun();
         $peliculas = array();
-        $peliculas["items"] = array();
+        $peliculas["startDate"] = array();
 
         $res = $RoyalCancun->getOcupiedDates($idReservation, $date);
 
